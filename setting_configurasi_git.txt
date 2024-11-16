@@ -1,0 +1,13 @@
+git config --global user.email 'faizsaputra79@gmail.com'
+
+git config --global user.name 'username'
+
+# membuat connection dari local ke git
+git init
+
+# adding file
+git add <sebutkan Namafile>
+git add .
+
+# remove file from list
+git rm --cached audio.mp3
